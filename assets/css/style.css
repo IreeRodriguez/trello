@@ -55,19 +55,49 @@ section{
     flex-flow: row;
     justify-content: flex-start;
 }
-
 section>*{
-    outline: 2px solid red;
+    /*outline: 2px solid red;*/
     display: inline-block;
-    margin: 2em;
+    margin: 1em;
 }
-
 textarea{
     resize: none;
+    border: transparent;
+    border-radius: 0.2em;
+    margin-bottom: 0.5em;
 }
 button{
     display: block;
 }
 .create{
     display: none;
+    background-color: #E2E4E6;
+    border-radius: 0.5em;
+    padding: 0.5em;
+}
+.create input{
+    background-color: white;
+    margin-bottom: 0.5em;
+    border-radius: 0.3em;
+}
+#mostrar{
+    background-color: #0067A3;
+    text-align: left;
+    padding: 0 1em 0;
+    border-radius: 0.2em;
+    height: 3em;
+    color: white;
+
+}
+.btn{
+    background-color: #5BAE45;
+    border: transparent;
+    border-radius: 0.2em;
+    color: white;
+    padding: 0.3em 1em 0.3em;
+}
+.newCreate{
+    background-color: #E2E4E6;
+    border-radius: 0.5em;
+    padding: 0.5em;
 }
