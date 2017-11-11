@@ -5,7 +5,37 @@
     <link href="assets/css/style.css" rel="stylesheet"/>
 </head>
 <body>
+    <header>
+        <div class="search tabs">
+            <div class="tabs blu">
+                <i class="fa fa-trello" aria-hidden="true"></i>
+                <p class="m0">Tableros</p>
+            </div>
+            <div class="searchBar blu">
+                <input type="text" name="" value="">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+        </div>
+        <div class="trello tabs">
+            <i class="fa fa-trello fa-2x" aria-hidden="true"></i>
+            <h1 class="m0">Trello</h1>
+        </div>
+        <div class="profile tabs"align="right">
+            <div class="blu">
+                <i class="fa fa-plus" aria-hidden="true"></i>
+            </div>
+            <div class="blu">
+                <i class="fa fa-clock-o" aria-hidden="true"></i>
+            </div>
+            <div class="blu">
+                <i class="fa fa-bell-o" aria-hidden="true"></i>
+            </div>
+
+        </div>
+
+    </header>
     <section>
+        <input id="mostrar" class="btn" type="button" name="" value="Añadir lista" onclick="show()">
         <div class="create">
             <input id="newList" type="text" name="" value="" placeholder="Añadir una lista">
             <button id="guardar" type="button" name="guardar">Guardar</button>

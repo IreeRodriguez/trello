@@ -1,3 +1,55 @@
+body{
+    background-color: #0079BF;
+    margin: 0;
+    font-family: sans-serif;
+}
+header{
+    background-color: #0067A3;
+    margin: 0;
+    padding: 0 1em 0;
+    display: flex;
+    flex-flow: row;
+}
+.search{
+    flex: 1 30%;
+}
+.trello{
+    flex: 2 60%;
+    text-align: center;
+    padding-top: 0.5em;
+}
+h1{
+    font-size: 1.6em;
+}
+.profile{
+    flex: 1 20%;
+    align: right;
+}
+.blu{
+    background-color: #4591BD;
+    border-radius: 0.2em;
+}
+.tabs>*{
+    display: inline-block;
+    color: white;
+    text-align: center;
+}
+.search>*{
+    margin: 0.5em;
+    padding: 0.5em;
+}
+.profile>*{
+    margin: 0.5em;
+    padding: 0.5em;
+
+}
+.m0{
+    margin: 0;
+}
+input{
+    background-color: transparent;
+    border: transparent;
+}
 section{
     display: flex;
     flex-flow: row;
@@ -12,4 +64,10 @@ section>*{
 
 textarea{
     resize: none;
+}
+button{
+    display: block;
+}
+.create{
+    display: none;
 }
