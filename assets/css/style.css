@@ -49,11 +49,13 @@ h1{
 input{
     background-color: transparent;
     border: transparent;
+
 }
 section{
     display: flex;
     flex-flow: row;
     justify-content: flex-start;
+    margin: 0 1em 0;
 }
 section>*{
     /*outline: 2px solid red;*/
@@ -65,6 +67,7 @@ textarea{
     border: transparent;
     border-radius: 0.2em;
     margin-bottom: 0.5em;
+    width: 100%;
 }
 button{
     display: block;
@@ -74,11 +77,13 @@ button{
     background-color: #E2E4E6;
     border-radius: 0.5em;
     padding: 0.5em;
+    width: 15%;
 }
 .create input{
     background-color: white;
     margin-bottom: 0.5em;
     border-radius: 0.3em;
+    width: 100%;
 }
 #mostrar{
     background-color: #0067A3;
@@ -100,4 +105,11 @@ button{
     background-color: #E2E4E6;
     border-radius: 0.5em;
     padding: 0.5em;
+    width: 15%;
+}/*estilos para los div de tarjetas creados en js*/
+h2{
+    margin-left: 1em;
 }
+p{
+    overflow-wrap: break-word;
+} /*evitar que una palabra larga se salga del container*/
